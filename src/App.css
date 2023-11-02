@@ -1,0 +1,98 @@
+.app {
+    width: 500px;
+}
+
+form {
+    background-color: white;
+    max-width: 400px;
+    width: 100%;
+    border-radius: 6px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgb(136, 131, 131);
+}
+
+form h1 {
+    margin-bottom: 10px;
+    color: black;
+    font-size: 40px;
+}
+
+.caption {
+    font-size: 16px;
+    color: rgb(154, 149, 149);
+    margin-bottom: 30px;
+}
+
+.input-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.input-section input,
+.input-section select {
+    border: none;
+    border-bottom: 1px solid rgb(188, 182, 182);
+    padding: 5px;
+    outline: none;
+}
+
+.input-section input:focus {
+    border-bottom: 1px solid rgb(25, 23, 23);
+}
+
+.input-section select,
+.input-section .date-section {
+    border: 1px solid rgb(188, 182, 182);
+}
+
+.input-section label {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.dropdown-section label {
+    margin-bottom: 12px;
+}
+
+.radio-groups label {
+    font-size: 16px;
+}
+
+.radio-groups .radio-buttons {
+    font-weight: normal;
+}
+.dropdown-section .check-groups {
+    font-weight: normal;
+}
+.radio-buttons{
+  margin-left: 10px;
+}
+
+.radio-button-gender{
+  margin-left: 5px;
+}
+
+form button{
+  width:100%;
+  padding:15px 0;
+  border: none;
+  background-color: orangered;
+  color: white;
+  border-radius: 6px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition:background-color 0.2s ease-in-out;
+}
+
+form button:hover{
+  background-color: purple;
+}
+
+.danger{
+    color:red;
+    font-size: 10px;
+    margin-top: 5px;
+
+}
